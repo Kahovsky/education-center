@@ -1,0 +1,249 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            background: #fff;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-weight: bold;
+        }
+        
+        .nav-buttons {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+        }
+        
+        .btn {
+            padding: 8px 16px;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #333;
+            background: #fff;
+        }
+        
+        .auth-link {
+            color: #333;
+            text-decoration: none;
+            margin: 10px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ddd;
+            text-align: center;
+            min-height: 400px;
+            height: 90vh;
+        }
+        
+        .hero h1 {
+            font-size: 81px;
+            margin-bottom: 20px;
+        }
+        
+        .slogan {
+            font-size: 30px;
+            color: #666;
+        }
+        
+        /* Features Section */
+        .features {
+            padding: 80px 0;
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            flex-direction:column;
+        }
+        
+        .feature-image {
+            text-align: center;
+        }
+        
+        .smiley {
+            width: 270px;
+            height: 270px;
+            background: #fff;
+            border-radius: 50%;
+            border: 2px solid #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 120px;
+            padding: 30px;
+        }
+        
+        .feature-text {
+            flex: 1;
+            padding: 30px;
+        }
+        
+        .feature-text h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        /* Reviews Section */
+        .reviews {
+            padding: 80px 0;
+            background: #fff;
+        }
+        
+        .reviews h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .review-cards {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        
+        .review-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 30px;
+            flex: 1;
+            max-width: 300px;
+        }
+        
+        .review-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .review-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: #ddd;
+            margin-right: 15px;
+        }
+        
+        .review-name {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        /* CTA Section */
+        .cta {
+            background-color: #ddd;
+            padding: 100px 0;
+        }
+        
+        .cta-content {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+        }
+        
+        .cta-form {
+            flex: 1;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+        }
+        
+        .cta-text {
+            flex: 1;
+        }
+        
+        .cta-text h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-frame {
+            border: 2px solid #333;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        .submit-btn {
+            background: #333;
+            color: #fff;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        /* Footer */
+        footer {
+            background: #fff;
+            border-top: 1px solid #ddd;
+            padding: 30px 0;
+        }
+        
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .footer-logo {
+            font-size: 33px;
+            font-weight: bold;
+        }
+        
+        .footer-contacts {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .footer-circle {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: #ddd;
+        }
